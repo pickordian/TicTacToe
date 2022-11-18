@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Board from './Board'
+import Board from '../src/Board'
 import './Game.css'
 export default class Game extends Component {
   constructor(props) {
@@ -9,11 +9,11 @@ export default class Game extends Component {
     }
     this.setMessage = this.setMessage.bind(this);
   }
-    setMessage = (i_message) => {
-      this.setState({
-        message: i_message
-      });
-    }
+  setMessage = (i_message) => {
+    this.setState({
+      message: i_message
+    });
+  }
   render() {
     return (
       <div className="Game" >
