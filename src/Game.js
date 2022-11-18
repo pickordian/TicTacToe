@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Board from '../src/Board'
+import Board from './Board'
 import './Game.css'
 export default class Game extends Component {
   constructor(props) {
