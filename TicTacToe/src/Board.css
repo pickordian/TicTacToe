@@ -1,9 +1,0 @@
-.Board{
-    background-color: rgb(236, 206, 11);
-    height: 500px;
-    width: 500px;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repear(3,1fr);
-    grid-gap: 2px;
-}
